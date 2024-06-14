@@ -1,0 +1,116 @@
+.container {
+  display: flex;
+}
+
+.dashboard {
+  position: relative;
+  width: 100%;
+  z-index: 0;
+  background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8NDQ0NDQ0PDQ0NDQ0NDQ0NDQ8NDQ0NFREWFhURFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDw0NDysZFRkrKystNysrKy03LS0tLSsrKy0rNy0rNys3KystKysrKysrKy0rKysrKysrKysrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAaAAEBAQADAQAAAAAAAAAAAAABAAIDBQYE/8QAGBABAQEBAQAAAAAAAAAAAAAAAAER8DH/xAAaAQEBAQEBAQEAAAAAAAAAAAABAAIDBAUG/8QAGBEBAQEBAQAAAAAAAAAAAAAAABEBAhL/2gAMAwEAAhEDEQA/APBIJ9x+dKCGlJJlBKhnSqEKCKzTWay1irNNZtDWCs02s0N4zWa1Wam8YrNarNTWCstVlNis0hNYyDQGhQQjgSQ10xJKBspIFJAp6QDU9r4RQQ1HQtDKOhC1nSgtZBhrNVoo1rBWaazWWsFZprNDeCs01mprBWK1Wam8FZpoqawVmmiprBQayGhUqE1iQI1rECKHQ6WVEikEXokyte18NpM6NGmNatZWsqHRotGsmGi0WgGG1m1Ws0NZh1m1M0RrMVZprNDWC1mq0BvBWabWU1irJrKaxClmprACARQaE0EkmsSqTLWakkmlqCSegWsrXtfHh1azq1nVGtGjWdBjWgaLWVDqtZ0WhqGijRoMNrNVrNoazFWbTaxaGsxCqs2hrFazTQm8AVCKrNNCawAhEUEUFAigogrWgUg2Ekk7vVrOjXrr5Ua1azq0KNaLRo0GNaNGjWVDaFo1GLRaNGhqG0WgWgxWs2q0UNZitZtVooaxUIVNKhBFVmmhFMlIgGgFAigpJLWsSSDWHvAki7bVrOrXor5sa1azo1VRrVrOrQo0tY0aDGtGjRophtFo1aDFotATUNrK0AoIIoFlNIVUIoJIoHQCEkihSAkRCtaCKDYRSTsNWsatdq8Eb1axq0VRrVrOrVTGtGjRoqjWgJGG0BaFEFoRQtQRVCSIoITQRCIRxYDGUcWIxlVrBgMCw4sTWYg1iwNRnCUjAiko+nVrOrW68Ua1azq0KNLWdWqqNatZ1alGtGs6kYbVoBR1BIxJINZyFYcOKtZyxhxrFgrecM4MbxYK3nLODG8WKnyxgxyYMFPljBjeLFV5YxNioxnDhSMGLEkokki1q0I14YdWhaqo1o0ako0tZJR1BJQpYlTmIoit5ypESq6Zyzhw4RXTOWcOHDgrWcsrGsWKtZyxixvFgp8sYMbxYqfLjxY3YMVHljFjeDFV5YxY0sVXlnFjWLEozhIVUcaZWmvA1q0alVCWdOmo6gSoTAYqcwmAwV0zkwxQit5ixEyCumYJDhMVbzkYcJxmumcs4saQrWcs4sbwYq15ZwY3gxDyxYMbwVVRmwY3gw0RjFjVgQjOLGghBgaSUfMlqL5qSSRQJRMZhRzGoRDIq3hjUZjUVdMwxoKBvMLQhkDpmGFNQOmYMakUhkDpmLFhWJvORiaxYGvLCxqwWFeWcGNVJnccdgbsFLO4wjgTMGDGkhGcRSUfGgmny2kkgiEkYYkW8ajUSDeGRoIN4Y0km8ahiQdcahiSdMahKDrypDiQbw4sCDasCSAsZSLIFSLOis0osMpJMrUkk//Z'); /* Add the path to your background image */
+  background-size: cover; /* Cover the entire container */
+  background-position: center;
+}
+
+.topBaseGradients {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 20rem;
+  overflow: hidden;
+  z-index: -1;
+  
+}
+
+.topBaseGradients>:nth-child(2)
+{
+    left: 40%;
+    
+}
+.topBaseGradients>:nth-child(3)
+{
+    right: 0;
+    
+}
+.header{
+    display: flex;
+    padding: 2rem 4rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.header>:nth-child(1)
+{
+    font-size: 1.2rem;
+}
+
+.dates{
+    margin-top: 40px;
+}
+.searchBar{
+    background-color: rgba(255, 255, 255, 0.496);
+    width: 30%;
+    max-width: 25rem;
+    padding: 1rem 1rem;
+    border-radius: 8px;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(63, 63, 63);
+    justify-content: center;
+    gap: 8px;
+}
+
+.searchBar>input{
+    background: transparent;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 0;width: 100%;
+}
+.profile{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile>img{
+    height: 50px;
+    width: 50px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    /* gap: 0.5rem; */
+    align-items: center;
+
+}
+.username {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+.details>:nth-child(1)
+{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.content{
+    margin: auto;
+    display: flex;
+    height: 100%;
+    /* align-items: center; */
+    /* uncomment the aic, and make mt -4rem */
+    margin-top: 4rem;
+}
+.content>div{
+    width: 100%;
+    min-width: 75vh
+}
+
+.profilePhoto {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%; /* Make the image circular */
+  }
+  

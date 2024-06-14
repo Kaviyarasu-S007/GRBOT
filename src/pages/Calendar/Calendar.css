@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/* CSS */
+.upload-btn {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 9px;
+}
+
+/* CSS */
+.map {
+  background-color: #008CBA; /* Blue */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 16px;
+  margin-right: 200px; /* Adjust the value as needed */
+  cursor: pointer;
+  border-radius: 9px;
+}
+
+.bill {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 9px;
+}
+
+/* CSS */
+/* Style for each section */
+.section {
+  margin-bottom: 20px; /* Adjust as needed */
+}
+
+/* Hidden file input */
+.custom-file-upload input[type='file'] {
+  display: none;
+  
+  
+  
+}
+
+.custom-file-upload label {
+  margin-left: 500px; 
+  /* Adjust the value as needed */
+}
+
+/* Styled container for file input */
+.custom-file-upload {
+  border: 1px solid #5c15c6;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  background-color: #5c15c6;
+  margin-right: 50px;
+  border-radius: 9px;
+}
+
+/* Styling when hovering over the container */
+.custom-file-upload:hover {
+  border: 1px solid #000000;
+  background-color: #e70707;
+}
+
+/* CSS */
+/* .Calendar {
+  background-image: url('https://images.pond5.com/abstract-3d-animation-modern-background-085532064_prevstill.jpeg');
+  background-size: cover; 
+  background-position: center; 
+} */

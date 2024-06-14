@@ -13,7 +13,7 @@ import React from 'react';
 import { createRoot } from 'react-dom';
 
 import App from './App';
-import './index.css';
+import './style.css';
 
 const root = document.getElementById('root');
 const reactRoot = createRoot(root);
